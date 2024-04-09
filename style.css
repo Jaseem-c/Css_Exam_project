@@ -1,0 +1,417 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+header
+{
+    background-image: url(./Media/heroimage.jpg);
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar
+{
+    margin-left:80px;
+    margin-right: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1{
+    color: yellow;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head
+{
+    color: black;
+    font-size: 25px;
+}
+ul
+{
+    margin-top: 40px;
+}
+ul li{
+ 
+    list-style-type:none;
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    margin: 10px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a:hover{
+    color:black;
+}
+.title
+{
+    position: absolute;
+    top: 200px;
+    right: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.head1
+{
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.head2
+{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: "Dancing Script", cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.enqbtn
+{
+position: absolute;
+margin-left: 45%;
+top: 70%;
+
+}
+.enqbtn button{
+background-color: green;
+color: white;
+padding: 10px 20px;
+border-radius: 8px;
+border: transparent;
+font-size: 15px;
+}
+/* honeymoon */
+#honeymoon
+{
+    
+    padding: 40px 200px;
+}
+#honeymoon h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;  
+}
+.honeymooncards
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.honeymooncards img{
+    height: 200px;
+}
+.honeymooncards div{ 
+    padding: 20px;
+}
+.carddetails
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.card{
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 4px;
+}
+
+.carddetails h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carddetails h6{
+    margin-top: 10px;
+    color: red;
+    font-size: 18px;
+}
+.carddetails p{
+    text-align: justify;
+    margin-top: 10px;
+}
+.carddetails button{
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: transparent;
+}
+.morepackages
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.morepackages button
+{
+    padding: 12px 23px;
+    color: white;
+    background-color:  rgb(20, 20, 149);
+    margin-top: 30px;
+    border: none;
+    border-radius: 19px;
+}
+/* special kerala tour packages */
+#spkerala
+{
+    padding: 40px;
+    background-color:rgb(242, 242, 242); 
+}
+#spkerala h1
+{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+   
+}
+.kbr
+{
+background-image: url(./Media/vallamkali.jpg);
+background-size: contain;
+width: 100%;
+height: 300px;
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.kbr h3{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px white;
+    margin-top: 90px;
+}
+.kbr p{
+    color: white;
+    margin-top: 10px;
+}
+.kbr button
+{
+    padding: 10px 20px;
+    color: black;
+    background-color:skyblue;
+    margin-top: 30px;
+    border: none;
+    border-radius: 6px;
+}
+.media
+{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    padding: 10px 30px;
+    column-gap: 20px;
+    height: 400px;
+    margin-top: 25px;
+}
+.media img{
+    margin-top: 25px;
+}
+/* northinfdian */
+#northindian
+{
+    margin-top: 20px;
+    padding: 40px 200px;
+}
+#northindian h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.northimages
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 30px;
+    margin-top: 25px;
+   
+}
+.northimages div{
+    border: 1px solid;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.northimages img{
+    height: 250px;
+    border-radius: 20px;
+}
+#northindian hr{
+margin-top: 20px;
+}
+/* premium */
+#premium
+{
+    padding: 10px 250px;
+}
+#premium h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+#premium p{
+    text-align: center;
+    margin-top: 15px;
+    color: red;
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.features
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 90px;
+    margin-top: 30px;
+  
+}
+.feature{
+    border: 1px solid black;
+}
+.features div{
+    border-radius: 50px;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    background-color:rgb(242, 242, 242); 
+}
+.features img{
+    border-radius: 50%;
+}
+.features h3
+{
+    margin-top: 4px;
+    text-transform: uppercase;
+}
+.features a
+{
+    margin-top: 6px;
+    text-decoration: none;
+}
+/* testimonials */
+#testimonials
+{
+    padding: 10px 250px;
+    background-color:rgb(242, 242, 242); 
+}
+
+.envelopeicon
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.envelopeicon i{
+    color: rgb(145, 145, 10);
+}
+#testimonials h2{
+    margin-top: 10px;
+    color:blue;
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+.reviews
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 80px;
+    margin-top: 15px;
+}
+.reviews div{
+    padding:  20px;
+}
+.rewviewdetails
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+}
+.rewviewdetails q{
+margin-top: 10px;
+text-align: justify;
+font-size: 17px;
+}
+/* footer */
+#footer
+{
+    background-color: darkblue;
+    padding:30px 250px ;
+}
+.footer
+{
+   
+    display: grid;
+    grid-template-columns: 350px 250px 350px ;
+    column-gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer h5
+{
+margin-top: 18px;
+}
+.footer h3{
+    color: orange;
+    font-size: 25px;
+}
+.iconset
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer img{
+    border-radius: 50%;
+    float: right;
+}
+.explore
+{
+    padding: 10px 0px;
+    position: relative;
+}
+.explore h4{
+    color: white;
+    bottom: 0px;
+    position: absolute;
+    right: 0px;
+}
+.copyright
+{
+    margin-top: 35px;
+    color: white;
+}
+.copyright p{
+    text-align: center;
+}
